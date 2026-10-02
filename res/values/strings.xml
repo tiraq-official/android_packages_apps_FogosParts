@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="device_settings_title">Fogos Settings</string>
+
+    <!-- Bypass Charging -->
+    <string name="bypass_charging_title">Bypass charging</string>
+    <string name="bypass_charging_summary">Power the phone directly from the charger</string>
+    <string name="bypass_charging_slider_title">Bypass charging mode</string>
+    <string name="bypass_charging_mode_0_title">Normal charging (0)</string>
+    <string name="bypass_charging_mode_0_desc">Charges the battery normally, at the usual rate.</string>
+    <string name="bypass_charging_mode_1_title">Bypass charging (1)</string>
+    <string name="bypass_charging_mode_1_desc">Phone runs off the charger only, 0 mA to the battery. Ideal for gaming.</string>
+    <string name="bypass_charging_mode_0_short">Normal (0)</string>
+    <string name="bypass_charging_mode_1_short">Bypass (1)</string>
+    <string name="bypass_charging_status_normal">Status: normal charging</string>
+    <string name="bypass_charging_status_bypass">Status: bypassing battery</string>
+    <string name="bypass_charging_unplugged">No charger connected — the setting takes effect when you plug in.</string>
+    <string name="bypass_charging_footer">Powers the phone directly from the charger without charging the battery. Reduces heat and battery wear during intensive tasks. Battery protection (temperature and voltage limits) stays fully active.</string>
+</resources>
