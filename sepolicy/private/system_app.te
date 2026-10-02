@@ -1,6 +1,0 @@
-# Bypass charging node: /sys/module/qpnp_adaptive_charge/parameters/charging_enabled
-# This path is already labelled sysfs_battery_supply by the device tree genfs_contexts
-# (android_device_motorola_sm6375-common), which also grants the lineage health HAL.
-# We only add write access for the parts app, which runs as a system app.
-allow system_app sysfs_battery_supply:dir search;
-allow system_app sysfs_battery_supply:file rw_file_perms;
