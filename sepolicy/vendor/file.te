@@ -1,0 +1,3 @@
+# KCAL picture control (SDE display driver) nodes under
+# /sys/devices/platform/kcal_ctrl.0/
+type sysfs_kcal, sysfs_type, fs_type;

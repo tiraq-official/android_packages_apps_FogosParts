@@ -1,0 +1,2 @@
+# KCAL picture control (SDE display driver)
+genfscon sysfs /devices/platform/kcal_ctrl.0 u:object_r:sysfs_kcal:s0

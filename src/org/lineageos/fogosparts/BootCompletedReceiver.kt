@@ -8,6 +8,7 @@ package org.lineageos.fogosparts
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
+import org.lineageos.fogosparts.display.KcalUtils
 import org.lineageos.fogosparts.power.BypassChargingUtils
 
 class BootCompletedReceiver : BroadcastReceiver() {
@@ -17,6 +18,7 @@ class BootCompletedReceiver : BroadcastReceiver() {
             Intent.ACTION_LOCKED_BOOT_COMPLETED,
             Intent.ACTION_BOOT_COMPLETED -> {
                 BypassChargingUtils.restoreOnBoot(context)
+                KcalUtils.restoreOnBoot(context)
             }
         }
     }

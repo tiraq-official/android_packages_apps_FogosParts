@@ -1,0 +1,5 @@
+# KCAL picture control nodes: /sys/devices/platform/kcal_ctrl.0/*
+# The parts app (system_app) drives them; init chowns/chmods them at boot.
+allow system_app sysfs_kcal:dir search;
+allow system_app sysfs_kcal:file rw_file_perms;
+allow init sysfs_kcal:file setattr;
