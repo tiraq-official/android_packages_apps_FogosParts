@@ -1,8 +1,11 @@
 # FogosParts
 
-A small LineageOS-style "parts" app that gives the Moto G34 (fogos) a real
-**Bypass charging** toggle, modelled on the OnePlusParts app but wired to this
-device's adaptive-charging driver.
+A small LineageOS-style "parts" app for the Moto G34 (fogos). It provides:
+
+- **Bypass charging** (Settings -> Battery): run the phone off the charger
+  without charging the battery.
+- **Picture control** (Settings -> Display): KCAL colour tuning (hue,
+  saturation, intensity, contrast) with an on/off switch and reset.
 
 ## How it works
 

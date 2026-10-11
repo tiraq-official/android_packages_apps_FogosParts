@@ -55,5 +55,22 @@
             </intent-filter>
         </service>
 
+        <!-- Picture control Activity -->
+        <activity
+            android:name=".display.PictureControlActivity"
+            android:label="@string/picture_control_title"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.display" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/picture_control_summary" />
+        </activity>
+
     </application>
 </manifest>

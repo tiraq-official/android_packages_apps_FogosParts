@@ -20,4 +20,19 @@
     <string name="bypass_charging_status_bypass">Status: bypassing battery</string>
     <string name="bypass_charging_unplugged">No charger connected — the setting takes effect when you plug in.</string>
     <string name="bypass_charging_footer">Powers the phone directly from the charger without charging the battery. Reduces heat and battery wear during intensive tasks. Battery protection (temperature and voltage limits) stays fully active.</string>
+
+    <!-- Picture control (KCAL) -->
+    <string name="picture_control_title">Picture control</string>
+    <string name="picture_control_summary">Tune display colours: hue, saturation, intensity, contrast</string>
+    <string name="kcal_enable_title">Enable picture control</string>
+    <string name="kcal_enable_summary">Apply the colour adjustments below to the display</string>
+    <string name="kcal_hue_title">Hue</string>
+    <string name="kcal_sat_title">Saturation</string>
+    <string name="kcal_val_title">Intensity</string>
+    <string name="kcal_cont_title">Contrast</string>
+    <string name="kcal_reset_title">Reset to defaults</string>
+    <string name="kcal_reset_summary">Return all four sliders to the panel\'s normal values</string>
+    <string name="kcal_reset_done">Reset to defaults</string>
+    <string name="kcal_write_failed">Couldn\'t write to the display node</string>
+    <string name="kcal_footer">Hue rotates all colours around the colour wheel (\u2212180\u00b0 to +180\u00b0). Saturation controls colour vividness: negative mutes colours, positive makes them more vivid. Intensity and Contrast can only be reduced on this panel \u2014 their hardware fields are 8-bit, so the neutral value is already the maximum. Every slider defaults to 0, which is the panel\'s normal output. Values are saved and re-applied after a reboot, and take effect on the next screen refresh (toggle the screen if a change does not appear immediately).</string>
 </resources>
