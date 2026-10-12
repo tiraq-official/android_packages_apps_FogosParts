@@ -20,8 +20,8 @@
         android:defaultValue="0"
         app:showSeekBarValue="true"
         app:updatesContinuously="true"
-        app:textStart="-180"
-        app:textEnd="+180" />
+        app:textStart="@string/kcal_scale_hue_min"
+        app:textEnd="@string/kcal_scale_hue_max" />
 
     <com.android.settingslib.widget.SliderPreference
         android:key="kcal_sat"
@@ -29,8 +29,8 @@
         android:defaultValue="0"
         app:showSeekBarValue="true"
         app:updatesContinuously="true"
-        app:textStart="-100"
-        app:textEnd="+100" />
+        app:textStart="@string/kcal_scale_adj_min"
+        app:textEnd="@string/kcal_scale_adj_max" />
 
     <com.android.settingslib.widget.SliderPreference
         android:key="kcal_val"
@@ -38,8 +38,8 @@
         android:defaultValue="0"
         app:showSeekBarValue="true"
         app:updatesContinuously="true"
-        app:textStart="-100"
-        app:textEnd="0" />
+        app:textStart="@string/kcal_scale_adj_min"
+        app:textEnd="@string/kcal_scale_red_max" />
 
     <com.android.settingslib.widget.SliderPreference
         android:key="kcal_cont"
@@ -47,8 +47,8 @@
         android:defaultValue="0"
         app:showSeekBarValue="true"
         app:updatesContinuously="true"
-        app:textStart="-100"
-        app:textEnd="0" />
+        app:textStart="@string/kcal_scale_adj_min"
+        app:textEnd="@string/kcal_scale_red_max" />
 
     <Preference
         android:key="kcal_reset"
