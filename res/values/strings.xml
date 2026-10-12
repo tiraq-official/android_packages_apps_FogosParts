@@ -34,5 +34,12 @@
     <string name="kcal_reset_summary">Return all four sliders to the panel\'s normal values</string>
     <string name="kcal_reset_done">Reset to defaults</string>
     <string name="kcal_write_failed">Couldn\'t write to the display node</string>
+
+    <!-- Picture control: slider end labels (textStart/textEnd need string refs) -->
+    <string name="kcal_scale_hue_min">-180</string>
+    <string name="kcal_scale_hue_max">+180</string>
+    <string name="kcal_scale_adj_min">-100</string>
+    <string name="kcal_scale_adj_max">+100</string>
+    <string name="kcal_scale_red_max">0</string>
     <string name="kcal_footer">Hue rotates all colours around the colour wheel (\u2212180\u00b0 to +180\u00b0). Saturation controls colour vividness: negative mutes colours, positive makes them more vivid. Intensity and Contrast can only be reduced on this panel \u2014 their hardware fields are 8-bit, so the neutral value is already the maximum. Every slider defaults to 0, which is the panel\'s normal output. Values are saved and re-applied after a reboot, and take effect on the next screen refresh (toggle the screen if a change does not appear immediately).</string>
 </resources>
